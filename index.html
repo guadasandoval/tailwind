@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Tailwind CSS</title>
+    <style>
+        .custom-bg {
+          background-image: url('/analog.jpg');
+          background-size: cover; 
+          background-position: center;
+        }
+      </style>
+</head>
+<body class="custom-bg w-full h-screen flex flex-col justify-start m-0 p-6"> 
+    <section id="nav">
+    <div id="home" class=" bg-white p-2 rounded-xl w-11//12">
+        <div class="flex flex-row justify-between items-center my-1 mx-6 h-10">
+            <h1 class="font-bold">MENTA</h1>
+                <div class="flex flex-row">
+                    <h2 class="px-3">FLOWERS SHOP</h2>
+                    <h2 class="px-3">GREEN LIFE</h2>
+                    <h2 class="px-3">OBJECTS</h2>
+                </div>
+                <div class="flex flex-row">
+                    <img src="/lupa.svg" class="w-8 mr-3"/>
+                    <img src="/amor.svg" class="w-8 mr-3"/>
+                    <img src="/cart.svg" class="w-8 mr-3"/>
+                </div>
+        </div>
+    </div>  
+    </section>
+    <section id="containers" class="rounded-xl w-11//12 h-full flex flex-row justify-around mt-3">
+        <div id="left" class=" flex flex-col justify-between">
+            <div class="bg-white rounded-xl p-9 mr-3 h-3/4 flex flex-col justify-center">
+                <h2 class="text-5xl">COFFEE & FLOWERS SHOP:</h2>
+                <h1 class="text-9xl font-bold">arrangements</h1>
+                <div class="w-2/3 mt-6">
+                    <p class="mt-5 mb-5">Our store presents modern arrangements for floral photography.
+                        You can buy flowers and pick up various nice things and accessories for them.
+                </p>
+                </div>
+                
+                <button class="bg-green-900 w-56 p-3 mt-6 rounded-3xl text-white">Buy flowers for you</button>
+            </div>
+            <div class="bg-white rounded-xl mt-3 mr-3 pl-12 flex items-center h-36">
+                <div class="w-10 h-10 rounded-full bg-green-900 flex justify-center items-center text-white mr-3">
+                    <img src="./insta.svg" alt="" class="w-5">
+                </div>
+                <p>Follow the new arrivals on our social networks</p>
+            </div>
+        </div>
+        <div id="rigth" class="border-2 border-white rounded-xl h-fit w-1/2 flex">
+            <div class=" h-fit w-full flex justify-end items-end">
+                <div class="bg-white w-80 p-3 m-3 rounded-xl">
+                    <p>In our store, you can find classic flowers that never go out of style: beautiful roses, elegant lilies, and vibrant tulips, as well as seasonal blooms and exotic varieties. We offer a wide selection of floral arrangements in various colors and styles, perfect for any occasion. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+</body>
+</html>
